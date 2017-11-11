@@ -1,3 +1,3 @@
 import AsyncBuffer from './async-buffer';
 
-AsyncBuffer();
+export default AsyncBuffer;
