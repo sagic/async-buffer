@@ -1,6 +1,6 @@
 {
   "name": "async-buffer-sc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Queue, buffer and execute prioritized promises",
   "main": "./dist/index.js",
   "scripts": {
