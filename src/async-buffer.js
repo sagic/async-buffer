@@ -7,7 +7,7 @@ const AsyncBuffer = function AsyncBuffer(concurrent, max = null) {
       return;
     }
     item.isProcessing = true;
-    // console.log('progress', item.id, queue.map((qi) => qi.id));
+    // console.log('progress', item.id, queue.map(qi => qi.id));
     const params = item.options.params || [];
     item.func(...params)
       .then(() => {
