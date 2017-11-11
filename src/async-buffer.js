@@ -1,5 +1,3 @@
-const AsyncBuffer = (a, b) => {
-  return a + b;
-};
+const AsyncBuffer = (a, b) => a + b;
 
 export default AsyncBuffer;
